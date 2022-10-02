@@ -1,6 +1,6 @@
 def greetings (weekday, person = 'Person', greet = 'Hello'):
     
-    print(f"{greet} {person}, how are you in this {weekday}?")
+    print(f"{greet.title()} {person.title()}, how are you in this {weekday}?")
 
 
 
